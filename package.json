@@ -1,0 +1,37 @@
+{
+  "name": "sqlite-schema",
+  "version": "1.0.0",
+  "description": "SQLite schema library and tools. Useful for applying schema changes to your SQL database. Can automatically apply some schema changes, and notify the user about others for manual corrections.",
+  "main": "src/index.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint src",
+    "lint-fix": "eslint --fix src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NbOpposite/node-sqlite-schema.git"
+  },
+  "keywords": [
+    "sqlite",
+    "sqlite3",
+    "schema",
+    "database"
+  ],
+  "author": "Robin Dahlgren <admin@opposite.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NbOpposite/node-sqlite-schema/issues"
+  },
+  "homepage": "https://github.com/NbOpposite/node-sqlite-schema#readme",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "sqlite": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "eslint": "^5.0.1",
+    "typescript": "^2.9.2"
+  }
+}
